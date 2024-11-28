@@ -1,0 +1,132 @@
+#app{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    border:2px solid black;
+    background-color:rgb(72,70,145,0.3);
+    min-height:600px;
+    min-width:400px;
+    max-width: 100vw;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+}
+
+#heading-container{
+    border:2px solid black;
+    position: relative;
+    left:20px;
+    right:20px;
+    width:90%;
+    height:50px;
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading{
+    padding: 20px;
+    color:white;
+}
+
+#displayed{
+    position: relative;
+    left:20px;
+    right:20px;
+    width:90%;
+    height:80px;
+    border-radius:10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color:white;
+    border:1px solid black;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+#buttons{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width:90%;
+    margin:20px;
+    min-height: 450px;
+    height:45vh;
+    margin-bottom: 0px;
+    flex-wrap: nowrap;
+}
+
+.row-container{
+    display: flex;
+    width:100%;
+    height:15%;
+    margin:3px;
+    padding: 5px;
+}
+
+.button-size{
+    width:23%;
+    margin-right:5px;
+    height:100%;
+    border:1px solid black;
+    border-radius: 5px;
+}
+
+.white{
+    background-color: white;
+}
+
+.yellow{
+    background-color:rgb(255, 214, 109);
+}
+
+.font{
+    font-size:1.3rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.red{
+    background-color: rgb(255, 65, 103);
+}
+
+.grey{
+    background-color: rgb(255, 255, 255);
+}
+
+.white:active{
+    background-color: rgb(130, 255, 130);
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.red:active{
+    background-color: rgb(124, 246, 255);
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.yellow:active{
+    background-color: rgb(178, 169, 255);
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.grey:active{
+    background-color: rgb(65, 236, 241);
+    box-shadow: 0px 0px 1px 1px black;
+}
+#displayArea{
+    padding-right:20px;
+    font-size:1.4rem;
+    padding-left: 20px;
+}
